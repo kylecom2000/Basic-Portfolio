@@ -1,7 +1,7 @@
 # Basic-Portfolio
 
-##Index - About Me
+## Index - About Me
 
-##Portfolio - Gallery of Works
+## Portfolio - Gallery of Works
 
-##Contact Info
+## Contact Info

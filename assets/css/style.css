@@ -61,20 +61,23 @@ header a {
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
-    background-color: #ffffff;
     clear: both;
-    word-wrap: normal;
+    max-width: 960px;
+    width: 100%;
+    background-color: #ffffff;
     font-size: 18px;
+    overflow: auto;
+    margin: 0 auto;
 }
 
 .container div {
-    margin: 5px 10px 30px 10px;
+    float: left;
     padding: 5px 10px 30px 10px;
 }
 
+
 h2 {
+    width: 100%;
     padding-top: 20px;
     font-size: 40px;
     border-bottom: 3px solid #CCC;
@@ -109,7 +112,58 @@ footer div {
     left: 45%;
 }
 
-#contact-info {
-    width: 20%;
-    line-height: 48px;
+#pPic {
+	float: left;
+	max-height: 200px;
+	max-width: 200px;
+	/* margin-right: 10px; */
 }
+
+.pItem {
+	/* margin-top: 5px; */
+	/* margin-bottom: 5px; */
+	position: relative;
+}
+
+.overPItem {
+    position: absolute;
+	bottom: 40px;
+    width: 200px;
+	text-align: center;
+    background-color:#4AAAA5;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.overPItem a {
+    text-decoration: none;
+    color:#ebebeb;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    width:900px;
+    
+}
+
+.messageInput {
+    height: 170px;
+    text-align: left;
+    text-justify: auto;
+}
+
+#submit {
+    background-color: #4AAAA5;
+}
+
+#submit a {
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    display:block;
+    padding: 15px;
+}
+
